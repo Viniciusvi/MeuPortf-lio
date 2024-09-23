@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifolio</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="menu.js" defer></script>
+
 </head>
 <body>
 
@@ -30,6 +33,30 @@
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
+
+            <div class="btn-abri-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#topo-do-site">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portfolio">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
         </div> <!--interface-->
     </header>
     <main>
@@ -109,7 +136,7 @@
                 <h2 class="titulo">Meu <span>portfólio.</span></h2>
                 <div class="flex">
                     <a href="https://alura-nine-taupe.vercel.app/">
-                        <div class="img-port-1">
+                        <div class="img-port-1"> 
                             <div class="overlay">Alura +</div>
                         </div>
                     </a>
