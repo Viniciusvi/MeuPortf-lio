@@ -109,6 +109,10 @@ header nav.menu-desktop ul li {
     font-size: 40px;
 }
 
+.btn-abri-menu {
+    display: none;
+}
+
 .menu-mobile{
     background-color: #000;
     height: 100vh;
@@ -438,6 +442,10 @@ footer .line-footer p a {
     }
     #topo-do-site .txt-topo-site p {
         font-weight: 300;
+    }
+
+    .btn-abri-menu {
+        display: block;
     }
 
     /* Especialidades */
