@@ -109,10 +109,6 @@ header nav.menu-desktop ul li {
     font-size: 40px;
 }
 
-.btn-abri-menu {
-    display: none;
-}
-
 .menu-mobile{
     background-color: #000;
     height: 100vh;
@@ -352,6 +348,23 @@ section#portfolio .flex {
     background-position: 100% 100%;
 }
 
+.img-port-2 {
+    width: 360px;
+    height: 460px;
+    background-color: #ffffff;
+    background-image: url("/img/Página\ inicial\ -\ LOGADA.png");
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 4s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port-2:hover {
+    background-position: 100% 100%;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -373,6 +386,30 @@ section#portfolio .flex {
 }
 
 .overlay:hover {
+    opacity: 1;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4d4d4dfb;
+    opacity: 0;
+    box-shadow: 0 0 15px #ffffff5b;
+    border: none;
+    transform: 0.3s;
+}
+
+.overlay-2:hover {
     opacity: 1;
 }
 
@@ -408,6 +445,10 @@ footer .line-footer p a {
     color: #fff;
 } 
 
+.btn-abri-menu {
+    display: none;
+}
+
 @media screen and (max-width: 1209px) {
     /* CLASSES GERAIS */
     .flex {
@@ -426,6 +467,10 @@ footer .line-footer p a {
         display: none;
     }
 
+    .btn-abri-menu {
+        display: block  ;
+    }
+
     /* Topo do Site */
     #topo-do-site .txt-topo-site h1 {
     font-size: 25px;
@@ -442,10 +487,6 @@ footer .line-footer p a {
     }
     #topo-do-site .txt-topo-site p {
         font-weight: 300;
-    }
-
-    .btn-abri-menu {
-        display: block;
     }
 
     /* Especialidades */
